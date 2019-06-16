@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td rowspan="4"><img src="gleiforst.jpg" alt="Thomas Gleiforst" height="250" rowspan="4" valign="center"/></td>
+    <td rowspan="4" valign="center"><img src="gleiforst.jpg" alt="Thomas Gleiforst" height="250" rowspan="4" valign="center"/></td>
     <td> Thomas Gleiforst </td>
   </tr>
   <tr>
