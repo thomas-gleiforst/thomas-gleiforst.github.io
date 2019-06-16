@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <td rowspan="4"><img src="gleiforst.jpg" alt="Thomas Gleiforst" height="250" rowspan="4"/></td>
-    <td valign="center"> Thomas Gleiforst </td>
+    <td rowspan="4"><img src="gleiforst.jpg" alt="Thomas Gleiforst" height="250" rowspan="4" valign="center"/></td>
+    <td> Thomas Gleiforst </td>
   </tr>
   <tr>
     <td> BS. Student - Computer Science and Computer Engineering </td>
