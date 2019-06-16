@@ -1,3 +1,3 @@
-![Resume](resume.jpg)
+![Resume](thomas-gleiforst.jpg)
 
-Click <a href="resume.jpg" download>here</a> to download.
+Click <a href="thomas-gleiforst.pdf" download>here</a> to download.
