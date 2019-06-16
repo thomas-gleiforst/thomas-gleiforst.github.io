@@ -1,3 +1,7 @@
+<nav>
+  <a href="resume.md">Resume</a>
+ </nav>
+
 ## Welcome to My Github Page
 
 <table>
