@@ -1,20 +1,20 @@
-jQuery(document).ready(function() {
+$(document).ready(function() {
 
-  jQuery(".nav-trigger").click(function() {
+  $(".nav-trigger").click(function() {
 
-    jQuery(".nav-menu").slideToggle(400, function() {
+    var src = $(".menu-button").attr("src") === "closedMenu.png"
+      ? "openMenu.png"
+      : "closedMenu.png";
+    $(".menu-button").attr("src", src);
 
-      var menu = document.getElementById("menu-button");
-      if (menu.src == "closedMenu.png"){
-        menu.src = "openMenu.png";
-        menu.alt = "Open Menu";
-      }
-      else {
-        menu.src = "closedMenu.png";
-        menu.alt = "Closed Menu";
-      }
+    var alt = $(".menu-button").attr("alt") === "Closed Menu"
+      ? "Open Menu"
+      : "Closed Menu";
+    $(".menu-button").attr("alt", alt);
 
-      jQuery(this).toggleClass("nav-expanded").css('display', '');
+    $(".nav-menu").slideToggle(400, function() {
+
+      $(this).toggleClass("nav-expanded").css('display', '');
 
     });
 
