@@ -100,16 +100,38 @@ nav a:hover::before {
   justify-content: center;
 }
 
+.flex-container-row-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .flex-container-col {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+.flex-container-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+button {
+  background-color: #55d6aa;
+  cursor: pointer;
+  color: #000000;
+  outline: #000000;
+  height: 50px;
+  width: 150px;
 }
 
 @media screen and (max-width: 900px) {
