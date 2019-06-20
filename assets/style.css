@@ -94,6 +94,24 @@ nav a:hover::before {
   display: none;
 }
 
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-container-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 900px) {
   .nav-trigger {
     display: block;
@@ -121,14 +139,16 @@ nav a:hover::before {
   nav li:last-child{
     border-bottom: none;
   }
-}
 
+  .flex-container-row {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
 
-
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  .flex-container-col {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
 }
