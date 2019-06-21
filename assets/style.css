@@ -113,10 +113,29 @@ nav a:hover::before {
   justify-content: space-around;
 }
 
+
+.flex-container-col-projs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width:250px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
 .flex-container-col-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.flex-container-col * {
+  padding: 5px;
+}
+
+.flex-container-col-projs * {
+  padding: 5px;
 }
 
 .center {
