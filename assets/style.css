@@ -122,6 +122,8 @@ nav a:hover::before {
   width:250px;
   border: 2px solid black;
   border-radius: 5px;
+  
+  margin: 2rem;
 }
 
 .flex-container-col-center {
@@ -142,6 +144,20 @@ nav a:hover::before {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.static-image {
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.flex-padding {
+	margin:  3rem 5rem 3rem 5rem;
+}
+
+.about-text {
+	margin: 0 0 0 5rem;
 }
 
 button {
@@ -191,5 +207,13 @@ button {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+  }
+  
+  .flex-padding {
+	margin:  3rem 2rem 3rem 2rem;
+  }
+  
+  .about-text {
+	  margin: 0
   }
 }
