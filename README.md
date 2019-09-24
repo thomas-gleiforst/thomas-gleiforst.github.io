@@ -1,5 +1,5 @@
 ---
-permalink: /core/index.html
+permalink: core/index.html
 ---
 
 ##Welcome to my github page
