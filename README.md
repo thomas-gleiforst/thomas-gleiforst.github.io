@@ -1,5 +1,5 @@
 ---
-permalink: core/index.html
+permalink: http://www.thomas-gleiforst.com/core/index.html
 ---
 
 ##Welcome to my github page
