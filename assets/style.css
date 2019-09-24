@@ -160,6 +160,10 @@ nav a:hover::before {
 	margin: 0 0 0 5rem;
 }
 
+.project-width {
+	width: 50%
+}
+
 button {
   background-color: #55d6aa;
   cursor: pointer;
@@ -215,5 +219,9 @@ button {
   
   .about-text {
 	  margin: 0
+  }
+  
+  .project-width {
+	  width: 80%
   }
 }
