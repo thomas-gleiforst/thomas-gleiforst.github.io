@@ -4,7 +4,7 @@ export const personal = {
   location: "Kirkland, WA",
   email: "thomas@gleiforst.com",
   github: "https://github.com/thomas-gleiforst",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/thomas-gleiforst-79b9b41b0",
   summary:
     "Senior software engineer with 5+ years owning features end-to-end across high-traffic production systems — from architecture and implementation through deployment, observability, and continuous improvement. An early and disciplined practitioner of AI-assisted development, using GitHub Copilot, Windsurf IDE, and multi-agent cloud workflows in production-grade ways daily. Experienced technical lead with a track record of mentoring engineers, driving code quality, and raising the engineering bar across cross-functional teams.",
 }
