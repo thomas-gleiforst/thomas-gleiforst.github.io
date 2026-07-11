@@ -5,6 +5,7 @@ import { Github, Linkedin, Mail, FileDown, Menu, X } from "lucide-react"
 import { useState } from "react"
 
 import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { personal } from "@/lib/data"
 
 const navItems = [
@@ -33,6 +34,7 @@ export function SiteHeader() {
         </nav>
 
         <div className="hidden items-center gap-1 md:flex">
+          <ThemeToggle />
           {personal.linkedin && (
             <Button variant="ghost" size="icon" asChild>
               <Link href={personal.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
@@ -58,15 +60,17 @@ export function SiteHeader() {
           </Button>
         </div>
 
-        <Button
-          variant="ghost"
-          size="icon"
-          className="md:hidden"
-          onClick={() => setOpen((v) => !v)}
-          aria-label="Toggle menu"
-        >
-          {open ? <X /> : <Menu />}
-        </Button>
+        <div className="flex items-center gap-1 md:hidden">
+          <ThemeToggle />
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setOpen((v) => !v)}
+            aria-label="Toggle menu"
+          >
+            {open ? <X /> : <Menu />}
+          </Button>
+        </div>
       </div>
 
       {open && (
